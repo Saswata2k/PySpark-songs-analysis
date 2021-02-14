@@ -1,6 +1,7 @@
 ## Sparkify Data Lake Project with PySpark
 
 ### Summary of the project
+
 Data sources:
 1. Song json files containing song and artist information
 2. Log file containing user,time and songplay session info
@@ -40,6 +41,7 @@ Million Song Dataset while the log_data contains generated log files based on th
 
 Project Files
 --
+
 ### etl.py
 This script once executed retrieves the song and log data from the s3 bucket,
 transforms the data into fact and dimensional tables then loads the table data back into s3 as parquet files. We use
